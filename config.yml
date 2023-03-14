@@ -1,0 +1,50 @@
+baseURL: "https://examplesite.com/"
+title: Nitish Sharma
+paginate: 5
+theme: PaperMod
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+
+  profileMode:
+    enabled: true
+    title: "Nitish Sharma 👋"
+    subtitle: "Software Engineer"
+    imageUrl: "images/me.jpg"
+    imageTitle: "Nitish Sharma"
+    imageWidth: 200
+    imageHeight: 200
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/shnitish/"
+    - name: github
+      url: "https://github.com/shnitish"
+    - name: email
+      url: "mailto:nitishkumar81299@gmail.com"
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blogs
+      url: /blogs/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
+
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
