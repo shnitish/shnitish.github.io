@@ -37,9 +37,12 @@ menu:
     - name: Blog
       url: /post/
       weight: 2
+    - name: Projects
+      url: /projects
+      weight: 3
     - name: About
       url: /about/
-      weight: 3
+      weight: 4
 
 markup:
   highlight:
